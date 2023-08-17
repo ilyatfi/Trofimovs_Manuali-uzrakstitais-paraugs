@@ -45,9 +45,9 @@ include_once 'functions.php';
                     <a href="tel:tel:+37129292929">+371 29292929 </a>
                     <a href = "mailto: help@sstore.com">help@sstore.com</a>
                     <div class="soc-icons">
-                        <a href="inst"><img src="./assets/instagram.svg"></a>
-                        <a href="twit"><img src="./assets/twitter.svg"></a>
-                        <a href="fb"><img src="./assets/facebook.svg"></a>
+                        <a href="inst"><img src=""></a>
+                        <a href="twit"><img src=""></a>
+                        <a href="fb"><img src=""></a>
                     </div>
                 </div>
             </div>

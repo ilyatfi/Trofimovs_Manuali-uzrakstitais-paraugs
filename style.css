@@ -18,13 +18,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 #catalog .card-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .card {
@@ -44,5 +45,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
