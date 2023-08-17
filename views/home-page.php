@@ -23,8 +23,8 @@ include_once 'functions.php';
             </form>
             <div class="buttons">
                 <a href="">Account</a>
-                <a href="">Wish</a>
-                <a href="">Cart</a>
+                <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
+                <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
             </div>
         </section>
 

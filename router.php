@@ -2,7 +2,8 @@
 
 $routes = array(
     'home' => 'views/home-page.php',
-    'welcome' => 'views/welcome-page.php'
+    'cart' => 'views/cart-page.php',
+    'wish' => 'views/wish-page.php'
 );
 
 $url = $_SERVER['REQUEST_URI'];

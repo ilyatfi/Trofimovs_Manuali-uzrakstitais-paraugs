@@ -1,7 +1,7 @@
 <?php
 include_once 'functions.php';
 
-echo 'welcome';
+echo 'cart';
 echo '<br>';
 
 ?>
