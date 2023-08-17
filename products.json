@@ -33,5 +33,12 @@
         "name": "Name",
         "price": "299$",
         "quantity": 25
+    },
+    {
+        "id": 6,
+        "image": "",
+        "name": "Name",
+        "price": "2$",
+        "quantity": 250
     }
 ]
