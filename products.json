@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "image": 1,
-        "name": 1,
-        "price": 1,
-        "quantity": 1
+        "image": "",
+        "name": "Name",
+        "price": "199$",
+        "quantity": 50
     },
     {
         "id": 2,
-        "image": 1,
-        "name": 1,
-        "price": 1,
-        "quantity": 1
+        "image": "",
+        "name": "Name",
+        "price": "99$",
+        "quantity": 100
     },
     {
         "id": 3,
-        "image": 1,
-        "name": 1,
-        "price": 1,
-        "quantity": 1
+        "image": "",
+        "name": "Name",
+        "price": "9$",
+        "quantity": 200
     },
     {
         "id": 4,
-        "image": 1,
-        "name": 1,
-        "price": 1,
-        "quantity": 1
+        "image": "",
+        "name": "Name",
+        "price": "90$",
+        "quantity": 70
     },
     {
         "id": 5,
-        "image": 1,
-        "name": 1,
-        "price": 1,
-        "quantity": 1
+        "image": "",
+        "name": "Name",
+        "price": "299$",
+        "quantity": 25
     }
 ]

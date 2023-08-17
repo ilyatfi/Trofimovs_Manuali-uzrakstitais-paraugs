@@ -1,7 +1,6 @@
 <?php
 include_once 'functions.php';
 ?>
-<!-- <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'welcome'); ?>>Welcome</a> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,28 +28,7 @@ include_once 'functions.php';
         </section>
 
         <section id="catalog">
-            <div class="card-wrapper">
-                <div class="card">
-                    <p calss="name">NAME</p>
-                    <p class="price">199$</p>
-                </div>
-                <div class="card">
-                    <p calss="name">NAME</p>
-                    <p class="price">199$</p>
-                </div>
-                <div class="card">
-                    <p calss="name">NAME</p>
-                    <p class="price">199$</p>
-                </div>
-                <div class="card">
-                    <p calss="name">NAME</p>
-                    <p class="price">199$</p>
-                </div>
-                <div class="card">
-                    <p calss="name">NAME</p>
-                    <p class="price">199$</p>
-                </div>
-            </div>
+            <div class="card-wrapper"></div>
         </section>
 
         <section id="footer">
