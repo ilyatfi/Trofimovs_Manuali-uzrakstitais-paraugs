@@ -14,14 +14,11 @@ include_once 'functions.php';
 <body>
     <div class="page-wrapper">
         <section id="top-nav">
-            <div class="logo">
-                S.
-            </div>
+            <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?> class="logo">S.</a>
             <form action="search">
                 <input type="text" placeholder="Search">
             </form>
             <div class="buttons">
-                <a href="">Account</a>
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
             </div>
@@ -37,13 +34,15 @@ include_once 'functions.php';
         </div>
 
         <section id="footer">
-            <div class="logo">S.</div>
+            <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?> class="logo">S.</a>
             <div class="menu-contacts">
                 <div class="menu">
                     <h3>Menu</h3>
-                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?>>Home</a>
-                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
-                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
+                    <div class="buttons">
+                        <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?>>Home</a>
+                        <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
+                        <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
+                    </div>
                 </div>
                 <div class="contacts">
                     <h3>Contacts</h3>
