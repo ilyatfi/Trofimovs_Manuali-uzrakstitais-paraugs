@@ -1,9 +1,12 @@
 const wishArray = localStorage.getItem("wish-list") ? JSON.parse(localStorage.getItem("wish-list")) : [];
 
-const fetchProducts = async (callback) => {
-    const response = await fetch("products.json");
-    const products = await response.json();
-    callback(products);
+const newMesage = (message) => {
+    const messageBox = document.querySelector("#message");
+    messageBox.innerHTML = message;
+}
+
+if(wishArray.length == 0) {
+    newMesage("Your Wish list is empty!");
 }
 
 const productsHandler = (products) => {
@@ -32,7 +35,7 @@ const productsHandler = (products) => {
 
         const wish_btn = document.createElement("button");
         wish_btn.classList.add("wishBtn");
-        wish_btn.innerHTML = "Add to Wish list";
+        wish_btn.innerHTML = "Delete from Wish list";
 
         card.appendChild(name_span);
         card.appendChild(price_span);
@@ -47,40 +50,14 @@ const productsHandler = (products) => {
 const activateWishListener = (products) => {
     let wishBtn = document.querySelectorAll(".wishBtn");
     wishBtn.forEach((wb, i) => {
-        wb.addEventListener("click", () => { addToWish(i, products); })
+        wb.addEventListener("click", () => { deleteFromWish(i, products); })
     })
 }
 
-const addToWish = (i, products) => {
-
-    if (wishArray.length == 0) {
-
-        wishArray.push(products[i]);
-        localStorage.setItem("wish-list", JSON.stringify(wishArray));
-        newMesage("Product " + products[i].name + " has been added to the Wish list!");
-    }
-    else {
-
-        let alreadyIs = false;
-        for (let j = 0; j < wishArray.length; j++) {
-            if (products[i].id == wishArray[j].id) {
-                alreadyIs = true;
-            }
-        }
-        if (alreadyIs) {
-            newMesage("You have already added that product to the Wish list!");
-        }
-        else {
-            wishArray.push(products[i]);
-            localStorage.setItem("wish-list", JSON.stringify(wishArray));
-            newMesage("Product " + products[i].name + " has been added to the Wish list!");    
-        }
-    }
+const deleteFromWish = (i, products) => {
+    wishArray.splice(i, 1);
+    localStorage.setItem("wish-list", JSON.stringify(wishArray));
+    location.reload();
 }
 
-const newMesage = (message) => {
-    const messageBox = document.querySelector("#message");
-    messageBox.innerHTML = message;
-}
-
-fetchProducts(productsHandler);
+productsHandler(wishArray);

@@ -27,18 +27,23 @@ include_once 'functions.php';
             </div>
         </section>
 
-        <section id="catalog">
-            <div class="card-wrapper"></div>
-        </section>
+        <div class="page-content">
+            
+            <div id="message"></div>
+
+            <section id="catalog">
+                <div class="card-wrapper"></div>
+            </section>
+        </div>
 
         <section id="footer">
             <div class="logo">S.</div>
             <div class="menu-contacts">
                 <div class="menu">
                     <h3>Menu</h3>
-                    <a href="">Home</a>
-                    <a href="">Wish</a>
-                    <a href="">Cart</a>
+                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?>>Home</a>
+                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
+                    <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
                 </div>
                 <div class="contacts">
                     <h3>Contacts</h3>
