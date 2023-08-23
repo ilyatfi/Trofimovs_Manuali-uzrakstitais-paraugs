@@ -2,42 +2,42 @@
     {
         "id": 1,
         "image": "",
-        "name": "Name",
+        "name": "Glasses",
         "price": "199$",
         "quantity": 50
     },
     {
         "id": 2,
         "image": "",
-        "name": "Name",
+        "name": "Clock",
         "price": "99$",
         "quantity": 100
     },
     {
         "id": 3,
         "image": "",
-        "name": "Name",
+        "name": "Popcorn",
         "price": "9$",
         "quantity": 200
     },
     {
         "id": 4,
         "image": "",
-        "name": "Name",
+        "name": "Ring",
         "price": "90$",
         "quantity": 70
     },
     {
         "id": 5,
         "image": "",
-        "name": "Name",
+        "name": "Coach",
         "price": "299$",
         "quantity": 25
     },
     {
         "id": 6,
         "image": "",
-        "name": "Name",
+        "name": "Candy",
         "price": "2$",
         "quantity": 250
     }
