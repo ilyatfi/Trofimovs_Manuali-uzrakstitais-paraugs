@@ -57,13 +57,14 @@ include_once 'functions.php';
             </div>
             <div class="notif-subscribe">
                 <p>Subscribe</p>
-                <form action="">
+                <form action="post-email.php" method="post">
                     <input type="email" name="email" placeholder="Email Adress">
-                    <button type="submit" name="subscribe" value="Submit">Submit</button>
+                    <input type="submit" name="subscribtion" value="Submit" placeholder="Submit">
                 </form>
             </div>
         </section>
     </div>
+    <script src="home-products.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
