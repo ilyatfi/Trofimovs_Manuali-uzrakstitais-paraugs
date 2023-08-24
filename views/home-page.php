@@ -15,9 +15,6 @@ include_once 'functions.php';
     <div class="page-wrapper">
         <section id="top-nav">
             <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?> class="logo">S.</a>
-            <form action="search">
-                <input type="text" placeholder="Search">
-            </form>
             <div class="buttons">
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'cart'); ?>>Cart</a>
