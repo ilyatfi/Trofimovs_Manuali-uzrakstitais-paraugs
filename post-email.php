@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['subscribtion'])) {
+if(isset($_POST['subscription'])) {
 
     if(file_exists("emails.json"))
         $emails = json_decode(file_get_contents("emails.json"));
