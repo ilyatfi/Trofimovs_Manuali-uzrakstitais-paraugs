@@ -6,6 +6,7 @@
             <div class="buttons">
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'home'); ?>>Home</a>
                 <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'wish'); ?>>Wish</a>
+                <a href=<?php echo getNewUrl($_SERVER['REQUEST_URI'], 'about-us'); ?>>About us</a>
             </div>
         </div>
         <div class="contacts">
