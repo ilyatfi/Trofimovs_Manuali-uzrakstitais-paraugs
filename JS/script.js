@@ -5,6 +5,7 @@ subForm.onsubmit = (event) => {
     const message = document.querySelector('#subscribed');
     if(input.value == "")
         return;
+    message.style.display = "block";
     message.innerHTML = "Successfully subscribed!";
 }
 
@@ -21,6 +22,7 @@ const productsHandler = (products, checkPage) => {
 
         const card = document.createElement("div");
         card.classList.add("card");
+        card.classList.add("hover");
 
         const image = document.createElement("img");
         image.src = products[i].image;
@@ -42,6 +44,7 @@ const productsHandler = (products, checkPage) => {
 
         const wish_btn = document.createElement("button");
         wish_btn.classList.add("wishBtn");
+        wish_btn.classList.add("btn");
         if(checkPage == "home-page")
             wish_btn.innerHTML = "Add to Wish list";
         else
