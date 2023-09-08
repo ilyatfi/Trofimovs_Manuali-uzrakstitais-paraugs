@@ -1,44 +1,51 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "assets/headphones.jpg",
         "name": "Headphones",
         "price": "199$",
         "quantity": 50
     },
     {
         "id": 2,
-        "image": "",
+        "image": "assets/clock.jpg",
         "name": "Clock",
         "price": "99$",
         "quantity": 100
     },
     {
         "id": 3,
-        "image": "",
+        "image": "assets/popcorn.jpg",
         "name": "Popcorn",
         "price": "9$",
         "quantity": 200
     },
     {
         "id": 4,
-        "image": "",
+        "image": "assets/ring.jpg",
         "name": "Ring",
         "price": "90$",
         "quantity": 70
     },
     {
         "id": 5,
-        "image": "",
+        "image": "assets/coach.jpg",
         "name": "Coach",
         "price": "299$",
         "quantity": 25
     },
     {
         "id": 6,
-        "image": "",
+        "image": "assets/candy.jpg",
         "name": "Candy",
         "price": "2$",
         "quantity": 250
+    },
+    {
+        "id": 7,
+        "image": "assets/backpack.jpg",
+        "name": "Backpack",
+        "price": "75$",
+        "quantity": 40
     }
 ]

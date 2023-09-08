@@ -15,6 +15,9 @@ const productsHandler = (products) => {
         const card = document.createElement("div");
         card.classList.add("card");
 
+        const image = document.createElement("img");
+        image.src = products[i].image;
+
         const name_span = document.createElement("span");
         name_span.classList.add("name");
         const name = document.createTextNode(products[i].name);
@@ -34,6 +37,7 @@ const productsHandler = (products) => {
         wish_btn.classList.add("wishBtn");
         wish_btn.innerHTML = "Add to Wish list";
 
+        card.appendChild(image);
         card.appendChild(name_span);
         card.appendChild(price_span);
         card.appendChild(quantity_span);

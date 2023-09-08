@@ -42,6 +42,11 @@ body {
     background-color: #eee;
 }
 
+.card img {
+    width: 90%;
+    height: auto;
+}
+
 #footer {
     width: 100%;
     height: 200px;
