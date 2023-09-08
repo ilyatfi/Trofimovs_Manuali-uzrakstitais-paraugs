@@ -7,3 +7,8 @@ subForm.onsubmit = (event) => {
         return;
     message.innerHTML = "Successfully subscribed!";
 }
+
+const newMesage = (message) => {
+    const messageBox = document.querySelector("#message");
+    messageBox.innerHTML = message;
+}

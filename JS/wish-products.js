@@ -1,10 +1,5 @@
 const wishArray = localStorage.getItem("wish-list") ? JSON.parse(localStorage.getItem("wish-list")) : [];
 
-const newMesage = (message) => {
-    const messageBox = document.querySelector("#message");
-    messageBox.innerHTML = message;
-}
-
 if(wishArray.length == 0) {
     newMesage("Your Wish list is empty!");
 }

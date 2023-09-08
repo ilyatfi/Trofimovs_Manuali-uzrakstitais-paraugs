@@ -58,7 +58,7 @@ include_once 'functions.php';
             </form>
         </section>
     </div>
-    <script src="JS/home-products.js"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/home-products.js"></script>
 </body>
 </html>

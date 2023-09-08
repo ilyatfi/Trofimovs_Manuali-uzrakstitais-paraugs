@@ -82,9 +82,4 @@ const addToWish = (i, products) => {
     }
 }
 
-const newMesage = (message) => {
-    const messageBox = document.querySelector("#message");
-    messageBox.innerHTML = message;
-}
-
 fetchProducts(productsHandler);
