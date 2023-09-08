@@ -1,7 +1,7 @@
 const wishArray = localStorage.getItem("wish-list") ? JSON.parse(localStorage.getItem("wish-list")) : [];
 
 const fetchProducts = async (callback) => {
-    const response = await fetch("products.json");
+    const response = await fetch("databases/products.json");
     const products = await response.json();
     callback(products);
 }
